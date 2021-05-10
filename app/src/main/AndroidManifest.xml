@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sachin.googlelensclone">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" /> <!-- camera x permissions -->
+    <uses-permission android:name="ANDROID.PERMISSION.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="ANDROID.PERMISSION.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_main"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_main"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GoogleLensClone">
+        <activity android:name=".text.TextRecognitionActivity" />
+        <activity android:name=".barcode.BarcodeActivity" />
+        <activity android:name=".OptionsActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".SplashScreen" android:theme="@style/Splash">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            android:value="ocr" />
+    </application>
+
+</manifest>

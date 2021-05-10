@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Google Lens Clone</string>
+    <string name="start_scanning">Start Scanning</string>
+    <string name="label">label</string>
+    <string name="start_teext_recognition">Start Teext Recognition</string>
+    <string name="start_text_recognition" />
+</resources>
