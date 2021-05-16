@@ -1,11 +1,12 @@
 # <div align="center"><img src="app/src/main/res/drawable/icon_main.png" alt="icon" width=40> Google Lens App </div>
-Google Lens Clone 
+
  ![flutter](https://img.shields.io/badge/kotlin-language-blue?logo=kotlin)
  ![mlkit](https://img.shields.io/badge/MLKit-API-orange?logo=ML-kit)
  ![firebase](https://img.shields.io/badge/Firebase-platform-yellow?logo=firebase)
  ![Android](https://img.shields.io/badge/android-OS-lightgrey?logo=Android)
  ![Android studio](https://img.shields.io/badge/Android%20Studio-IDE-yellowgreen?logo=android-studio)
  ![GitHub repo size](https://img.shields.io/github/repo-size/Sachinbhola/Google-Lens-Clone)
+ ![Android](https://img.shields.io/badge/Camera%20X%20-used-lightgrey)
 <hr>
 
  ## <div align ="center" >Application Working</div> 
@@ -35,6 +36,7 @@ Google Lens Clone
   `Barcode Reader`
   `Face Detection`
   
+- Splash Screen
 - CameraX implementation
 - Mlkit clean implementation
 - Realtime preview and tags
