@@ -17,7 +17,7 @@
         android:layout_width="240dp"
         android:layout_height="400dp"
         tools:srcCompat="@tools:sample/backgrounds/scenic"
-        android:tooltipText="Thumbnail"
+        android:tooltipText="Try ML Features"
         />
 
     <Button
